@@ -12,4 +12,5 @@ class ContentSpiderItem(scrapy.Item):
     # define the fields for your item here like:
     phone = Field()
     url = Field()
-
+    email = Field()
+    tag = Field()
